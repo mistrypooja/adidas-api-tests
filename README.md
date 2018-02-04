@@ -2,9 +2,10 @@
 This was done as a part of Adidas Senior QA engineer job assessment process
 
 ## Instructions
-1. Install `gradle` on your machine
-2. In the terminal, navigate to the folder that contains `build.gradle` in this project
-3. Run the command `gradle test`
+1. Download the code on youe machine
+2. Install `gradle` on your machine
+3. In the terminal, navigate to the folder that contains `build.gradle` in this project
+4. Run the command `gradle test`
 
 ## Reports
 Reports can be viewed in the path `build/reports/tests/test/index.html`
