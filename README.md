@@ -33,3 +33,5 @@ of the test.
 But I have tried to demostrate a few things like having values set in config file, abstracting code in methods (here I have
 added methods to the same class file but for a bigger test suite, I group helper methods into different helper files)
 
+>For validating the images, I just grabbed the image urls for desktop, tablet and mobile because I find it to be a cleaner way. I could have looked for all .jpg's in the response too but in case new image format's were added like svg etc, it would have failed to validate all of them.  
+
