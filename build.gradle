@@ -6,7 +6,8 @@ dependencies {
             "org.hamcrest:hamcrest-all:1.3",
             "com.googlecode.json-simple:json-simple:1.1",
             "com.jayway.jsonpath:json-path:2.4.0",
-            "com.jayway.jsonpath:json-path-assert:2.4.0"
+            "com.jayway.jsonpath:json-path-assert:2.4.0",
+            "javax.xml.bind:jaxb-api:2.3.0"
 }
 
 repositories {
