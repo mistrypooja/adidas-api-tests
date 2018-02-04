@@ -1,0 +1,33 @@
+apply plugin: 'java'
+
+dependencies {
+    testCompile "io.rest-assured:rest-assured:3.0.2" ,
+            "org.testng:testng:6.9.4",
+            "org.hamcrest:hamcrest-all:1.3",
+            "com.googlecode.json-simple:json-simple:1.1",
+            "com.jayway.jsonpath:json-path:2.4.0",
+            "com.jayway.jsonpath:json-path-assert:2.4.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    test {
+        java {
+            srcDir 'src/test'
+        }
+
+        resources {
+            srcDir 'lib'
+        }
+
+    }
+}
+
+test {
+    useTestNG {
+        suites 'testng.xml'
+    }
+}

@@ -1,0 +1,11 @@
+<suite name="Suite" parallel="methods" thread="20">
+
+    <test name="CMS">
+
+        <classes>
+            <class name="test.java.adidas.endpoints.CMS"></class>
+        </classes>
+
+    </test>
+
+</suite>
